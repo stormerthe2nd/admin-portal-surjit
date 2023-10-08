@@ -1,0 +1,14 @@
+.parent {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding-inline: 20px;
+
+    .half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-grow: 1;
+    }
+}
