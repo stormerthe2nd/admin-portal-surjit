@@ -1,0 +1,30 @@
+<div class="parent">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title>Citizen Login</mat-card-title>
+            <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+        </mat-card-header>
+        <mat-card-content>
+            <form class="example-form">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Input 1</mat-label>
+                    <input matInput placeholder="Input 1">
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Input 2</mat-label>
+                    <input matInput placeholder="Input 2">
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Input 3</mat-label>
+                    <input matInput placeholder="Input 3">
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <div style="display: flex; justify-content: space-between;width: 100%;padding-inline: 20px;">
+                <button mat-button [routerLink]="['/auth']">Back</button>
+                <button mat-raised-button color="primary">Submit</button>
+            </div>
+        </mat-card-actions>
+    </mat-card>
+</div>

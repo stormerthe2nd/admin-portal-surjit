@@ -1,14 +1,22 @@
 .parent {
     height: 100%;
     display: flex;
-    gap: 30px;
+    // gap: 30px;
+    justify-content: space-evenly;
     padding-inline: 20px;
 
     .half {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        flex: 1;
+        // flex: 1;
         flex-grow: 1;
+
+        button{
+            height: 100px;
+            width: 250px;
+            font-size: 20px;
+        }
+        
     }
 }

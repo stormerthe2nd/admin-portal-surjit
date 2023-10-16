@@ -1,0 +1,26 @@
+<div class="parent">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title>Authority Login</mat-card-title>
+            <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+        </mat-card-header>
+        <mat-card-content>
+            <form class="example-form">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Username</mat-label>
+                    <input matInput placeholder="john@123">
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Passoword</mat-label>
+                    <input matInput placeholder="">
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <div style="display: flex; justify-content: space-between;width: 100%;padding-inline: 20px;">
+                <button mat-button [routerLink]="['/auth']">Back</button>
+                <button mat-raised-button color="primary" [routerLink]="['/dashboard']">Log In</button>
+            </div>
+        </mat-card-actions>
+    </mat-card>
+</div>
